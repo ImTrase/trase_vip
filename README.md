@@ -14,8 +14,14 @@ This is an extremely lightweight and optimized script for FiveM that integrates 
 5. Configure the needed requirments in the "config.lua"
 6. After starting the script, you should see "server authenticated" printed in the console.
 
-## Usage / Documentation
-For usage and detailed documentation please visit: https://docs.trase.dev/
+## Usage
+LocalPlayer.state[state]
+LocalPlayer.state['vip']
+LocalPlayer.state['vip+']
+
+if LocalPlayer.state['vip'] then
+print('isVIP')
+end
 
 ## Contributing
 Contributions are welcome! Please submit pull requests or issues if you find bugs or have suggestions for improvement.
